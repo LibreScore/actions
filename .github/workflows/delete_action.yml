@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Delete Action
         run: |
-          sleep 20
+          sleep 30
           curl -i -u PeterNjeim:${{ secrets.LIBRESCORE_TOKEN }} -X DELETE -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/docs/actions/runs/${{ github.event.client_payload.run_id }}
