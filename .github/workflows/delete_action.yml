@@ -1,8 +1,8 @@
 name: Delete Action
 
 on:
-  repository_dispatch:
-    types: [delete_action]
+#  repository_dispatch:
+#    types: [delete_action]
   workflow_dispatch:
 
 jobs:
